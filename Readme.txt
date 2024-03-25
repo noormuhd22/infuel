@@ -1,25 +1,21 @@
 How to run the Fuel Delivery Management System (fdondms) Project
 
-1. Download the  zip file
 
-2. Extract the file and copy fdondms folder
 
-3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
+1. Open PHPMyAdmin (http://localhost/phpmyadmin)
 
-4. Open PHPMyAdmin (http://localhost/phpmyadmin)
+2. Create a database with name fdondmsdb
 
-5. Create a database with name fdondmsdb
+3. Import fdondmsdb.sql file(given inside the zip package in SQL file folder)
 
-6. Import fdondmsdb.sql file(given inside the zip package in SQL file folder)
-
-7.Run the script http://localhost/fdondms (frontend)
+4.Run the script http://localhost/fdondms (frontend)
 
 
 
 Credential for admin panel :
 
 Username: admin
-Password: Test@123
+Password: admin123456
 
 Credential for Fuel Station owner panel :
 
